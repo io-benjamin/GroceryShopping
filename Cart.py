@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-PRODUCT_SERVICE_URL = "postgres://product_1uus_user:P4R1CX1EW9zkxmM1cX4irZJZb65buMz7@dpg-ck86vlo8elhc73ebc670-a/product_1uus"
+PRODUCT_SERVICE_URL = "https://products-service-ift9.onrender.com"
 
 shopping_cart = {}
 
