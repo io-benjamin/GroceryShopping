@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-# PRODUCT_SERVICE_URL = "https://products-service-ift9.onrender.com"
-PRODUCT_SERVICE_URL = "http://localhost:5001"
+PRODUCT_SERVICE_URL = "https://products-service-ift9.onrender.com"
+# PRODUCT_SERVICE_URL = "http://localhost:5001"
 
 users = ["user1", "user2"]
 
