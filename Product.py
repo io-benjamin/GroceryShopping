@@ -26,7 +26,7 @@ def add_product():
     data = request.json
     new_product = {
         "id": len(products) + 1,
-        "Product": data['Product'],
+        "name": data['name'],
         "price": data['price'],
         "quantity": data['quantity']
     }
